@@ -38,7 +38,7 @@ class DiscordMusicBot extends Client {
     }
     if (this.config.Token === "")
       return new TypeError(
-        "Please fill in the information in the config.js file."
+        "The config.js is not filled out. Please make sure nothing is blank, otherwise the bot will not work properly."
       );
 
     this.LoadCommands();
@@ -124,6 +124,7 @@ class DiscordMusicBot extends Client {
           host: this.config.Lavalink.host,
           port: this.config.Lavalink.port,
           password: this.config.Lavalink.pass,
+          secure: this.config.Lavalink.secure,
         },
       ]
     );
@@ -135,6 +136,7 @@ class DiscordMusicBot extends Client {
           host: this.config.Lavalink.host,
           port: this.config.Lavalink.port,
           password: this.config.Lavalink.pass,
+          secure: this.config.Lavalink.secure,
         },
       ],
       send(id, payload) {
