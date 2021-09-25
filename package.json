@@ -28,7 +28,7 @@
     "url": "https://github.com/ALBINPRAVEEN/Discordbot/issues"
   },
   "homepage": "https://github.com/ALBINPRAVEEN/Discordbot#readme",
-  "dependencies": {
+   "dependencies": {
     "colors": "^1.4.0",
     "cpu-stat": "^2.0.1",
     "discord.js": "^12.5.3",
@@ -37,7 +37,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "jsoning": "^0.11.0",
-    "lavasfy": "2.1.2",
+    "lavasfy": "2.3.0",
     "lodash": "^4.17.21",
     "lyrics-finder": "^21.7.0",
     "moment": "^2.29.1",
@@ -51,6 +51,6 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "prettier": "2.3.2"
+    "prettier": "2.4.1"
   }
 }
